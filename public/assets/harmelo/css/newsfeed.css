@@ -1,0 +1,134 @@
+.stats-box-slider-items:hover .centered_overlay {
+    opacity: 1;
+}
+
+.centered_overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.centered_bottomPlayer {
+    position: absolute;
+    bottom: 4px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.item-thumbnail {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block !important;
+}
+
+.track__playBtn {
+    top: 38% !important;
+    height: 86px !important;
+    width: 86px !important;
+    padding: 0 !important;
+    border: none !important;
+    margin-left: -71px !important;
+    background-color: #15151f00 !important;
+}
+
+.post__playBtn {
+    top: 102px !important;
+    height: 86px !important;
+    width: 86px !important;
+    padding: 0 !important;
+    border: none !important;
+    margin-left: -71px !important;
+    background-color: #15151f00 !important;
+}
+
+/**
+* Bootstrap overrides
+*/
+.dropdown-item {
+    padding: 0.8rem 1.5rem !important;
+    color: #fff;
+}
+.dropdown-menu {
+    background-color: #293249;
+}
+
+.swal2-container {
+    z-index: 1000000 !important;
+}
+
+.dropdown-menu > li {
+    display: inline-block;
+}
+.reaction_list {
+    transition: transform 0.2s;
+}
+.reaction_list:hover {
+    transform: scale(1.5);
+}
+
+.card-profile {
+    border: none;
+    border-radius: 10px;
+}
+
+.stats {
+    background: #f2f5f8 !important;
+    color: #fff !important;
+}
+
+.articles {
+    font-size: 10px;
+    color: #a1aab9;
+}
+
+.number1 {
+    font-weight: 500;
+}
+
+.followers {
+    font-size: 10px;
+    color: #a1aab9;
+}
+
+.number2 {
+    font-weight: 500;
+}
+
+.rating {
+    font-size: 10px;
+    color: #a1aab9;
+}
+
+.number3 {
+    font-weight: 500;
+}
+.btn_outlineWhite {
+    color: #fff !important;
+    border: 1px solid #fff !important;
+}
+.btn_outlineWhite:hover {
+    background: transparent !important;
+}
+.btn_filledPrimary {
+    color: #fff;
+    background-color: #4013dc;
+    border-color: #4013dc;
+}
+.btn_filledPrimary:hover {
+    color: #fff !important;
+}
+/*input[type="range"] {
+    height: 6px;
+    border-radius: 27px;
+    position: absolute;
+    bottom: 23%;
+    left: 14.5%;
+    width: 70%;
+}
+.el-dialog, .el-pager li {
+    background: transparent !important;
+}  */

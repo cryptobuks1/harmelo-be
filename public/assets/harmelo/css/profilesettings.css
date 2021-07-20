@@ -1,0 +1,63 @@
+@media (max-width: 1024px) {
+    .name-field__form-row {
+        margin-top: 76px !important;
+    }
+}
+.avatar-advance-preview {
+	border: dashed 3px rgba(255,255,255, 0.25);
+}
+.margin-y-38 {
+    margin-top: 38px !important;
+    margin-bottom: 38px !important;
+}
+.margin-b-38 {
+    margin-bottom: 38px !important;
+}
+.margin-t-38 {
+    margin-top: 38px !important;
+}
+.margin-t-76 {
+    margin-top: 76px !important;
+}
+.margin-b-76 {
+    margin-top: 76px !important;
+}
+.emoji-invoker {
+    position: absolute;
+    top: 0.5rem;
+    right: 1.1rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.my_profile_box__avatar {
+    opacity: 0 !important;
+    transition: opacity 0.6s
+}
+.activePanel .my_profile_box__avatar {
+    opacity: 1 !important;
+    transition: opacity 0.6s
+}
+.activePanel .my_profile_box__basincInfo {
+    opacity: 0 !important;
+    transition: opacity 0.6s !important
+}
+.my_profile_box__basincInfo {
+    opacity: 1 !important;
+    transition: opacity 0.6s !important
+}
+@media (min-width: 1024px) {
+    .__avatar-croppa {
+        width: 100%;
+    }
+}
+.picked_instrument {
+    border: 2px solid #3f249c !important;
+    background: #3f249c !important;
+    transition: 0.2s;
+}
+.item_instrument {
+    transition: 0.2s;
+}

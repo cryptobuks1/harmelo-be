@@ -1,0 +1,186 @@
+.muzieknootjes {
+    display: block;
+    margin: auto;
+    position: relative;
+    width: 50%;
+    min-width: 156px;
+    height: 50px;
+    border-radius: 5px;
+    background: #dd2bea;
+    margin-top: 12px;
+    color: #fff;
+    left: 53px;
+    cursor: pointer;
+    -webkit-animation: 6000ms pulsate infinite alternate ease-in-out;
+    -moz-animation: 6000ms pulsate infinite alternate ease-in-out;
+    -ms-animation: 6000ms pulsate infinite alternate ease-in-out;
+    -o-animation: 6000ms pulsate infinite alternate ease-in-out;
+    animation: 6000ms pulsate infinite alternate ease-in-out;
+    transition: 0.5s; /*transform 1.2s;*/
+    box-shadow: rgb(63 36 156) 10px -10px 0px -3px, #dd2bea 10px -10px;
+}
+.muzieknootjes:hover {
+    background: #0584bb;
+    box-shadow: #dd2bea 10px -10px 0px -3px, #0584bb 10px -10px;
+    -webkit-transition: box-shadow 200ms ease-in background-color 700ms linear;
+    -ms-transition: box-shadow 200ms ease-in background-color 700ms linear;
+    transition: box-shadow 200ms ease-in background-color 700ms linear;
+}
+
+.noot-1 {
+    position: absolute;
+    -webkit-animation: notes 2s infinite linear;
+    -moz-animation: notes 2s infinite linear;
+    -ms-animation: notes 2s infinite linear;
+    -o-animation: notes 2s infinite linear;
+    animation: notes 2s infinite linear;
+    font-size: 12px;
+    opacity: 0;
+    color: #f51720;
+}
+.noot-2 {
+    position: absolute;
+    -webkit-animation: notes 2s infinite linear;
+    -moz-animation: notes 2s infinite linear;
+    -ms-animation: notes 2s infinite linear;
+    -o-animation: notes 2s infinite linear;
+    font-size: 14px;
+    opacity: 0;
+    color: #3f249c;
+}
+.noot-3 {
+    position: absolute;
+    -webkit-animation: notes 2s infinite linear;
+    -moz-animation: notes 2s infinite linear;
+    -ms-animation: notes 2s infinite linear;
+    -o-animation: notes 2s infinite linear;
+    font-size: 9px;
+    opacity: 0;
+    color: #f8d210;
+}
+.noot-4 {
+    position: absolute;
+    -webkit-animation: notes 2s infinite linear;
+    -moz-animation: notes 2s infinite linear;
+    -ms-animation: notes 2s infinite linear;
+    -o-animation: notes 2s infinite linear;
+    font-size: 16px;
+    opacity: 0;
+    color: #2ff3e0;
+}
+
+.noot-1 {
+    top: 41px;
+    left: -30px;
+    animation-delay: 0.5s;
+}
+
+.noot-2 {
+    top: 21px;
+    left: 30%;
+    animation-delay: 1s;
+}
+
+.noot-3 {
+    top: 47px;
+    left: 60%;
+    animation-delay: 1.5s;
+}
+
+.noot-4 {
+    top: 30px;
+    left: 102%;
+    animation-delay: 2s;
+}
+
+@keyframes notes {
+    0% {
+        transform: scale(1) translate(0, 0);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.5) translate(50%, -50%);
+    }
+    80% {
+        opacity: 0;
+        transform: scale(1.5) translate(100%, -100%);
+    }
+    100% {
+        transform: scale(1.5) translate(100%, -100%);
+        opacity: 0;
+    }
+}
+
+@keyframes pulsate {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+@-webkit-keyframes pulsate {
+    0% {
+        -webkit-transform: scale(1);
+    }
+    50% {
+        -webkit-transform: scale(1.05);
+    }
+    100% {
+        -webkit-transform: scale(1);
+    }
+}
+@-moz-keyframes pulsate {
+    0% {
+        -moz-transform: scale(1);
+    }
+    50% {
+        -moz-transform: scale(1.05);
+    }
+    100% {
+        -moz-transform: scale(1);
+    }
+}
+@-ms-keyframes pulsate {
+    0% {
+        -ms-transform: scale(1);
+    }
+    50% {
+        -ms-transform: scale(1.05);
+    }
+    100% {
+        -ms-transform: scale(1);
+    }
+}
+@-o-keyframes pulsate {
+    0% {
+        -o-transform: scale(1);
+    }
+    50% {
+        -o-transform: scale(1.05);
+    }
+    100% {
+        -o-transform: scale(1);
+    }
+}
+.p-0\.5 {
+    padding: 0.125rem;
+}
+.rounded-full {
+    border-radius: 9999px;
+}
+.to-pink-600 {
+    --tw-gradient-to: #db2777;
+}
+.from-yellow-600 {
+    --tw-gradient-from: #5b1f94;
+    --tw-gradient-stops: var(--tw-gradient-from),
+        var(--tw-gradient-to, rgba(217, 119, 6, 0));
+}
+.bg-gradient-to-tr {
+    background-image: linear-gradient(to top right, var(--tw-gradient-stops));
+}

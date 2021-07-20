@@ -1,0 +1,93 @@
+.fontf-primary {
+    font-family: "Montserrat", sans-serif !important;
+    line-height: 1em !important;
+}
+.text-white {
+    color: #fff !important;
+}
+.text-red {
+    color: rgb(247, 99, 99) !important;
+}
+.text-link {
+    color: #007bff !important;
+}
+.v-application--wrap {
+    min-height: 0 !important;
+}
+/*.dynamic-page-body-class {
+    background-color: #fff;
+}*/
+.harmelo-dark-card {
+    background-color: #1d2333 !important;
+}
+.harmelo-light-card {
+    background-color: #fff !important;
+}
+.harmelo-dark-body {
+    background-color: #161b28 !important;
+}
+.harmelo-light-body {
+    background-color: #f8f8fb !important;
+}
+.harmelo-light-border-top {
+    border-top: 1px solid #f8f8fb !important;
+}
+.harmelo-dark-border-top {
+    border-top: 1px solid #2f3749 !important;
+}
+.harmelo-light-border-bottom {
+    border-bottom: 1px solid #f8f8fb !important;
+}
+.harmelo-dark-border-bottom {
+    border-bottom: 1px solid #2f3749 !important;
+}
+.harmelo-light-border {
+    border: 1px solid #f8f8fb !important;
+}
+.harmelo-dark-border {
+    border: 1px solid #161b28 !important;
+}
+.harmelo-dark-subpanel {
+    background-color: #272e40 !important;
+}
+.harmelo-light-subpanel {
+    background-color: #bebecc00 !important;
+}
+.harmelo-light-component-color {
+    background-color: #615dfa !important;
+}
+.harmelo-dark-component-color {
+    background-color: #3f249c !important;
+}
+.text-dark {
+    color: #1d2333 !important;
+}
+.post-actions {
+    width: 80px;
+    justify-content: center;
+    height: 44px;
+    border-radius: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    box-shadow: 3px 5px 20px 0 rgb(94 92 154 / 10%);
+}
+.box-shadow {
+    box-shadow: 0 2px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 1%), 0 1px 5px 0 rgb(0 0 0 / 12%) !important;
+}
+
+
+
+/**
+* IF ANYTHING GOES WRONG, Please check this one
+* This current setup is pretty messed up and confusing
+* You might want to interchange their css attributes
+*/
+#custom-vtfields-light {
+    background-color: #fff !important;
+    color: #1d2333 !important;
+}
+#custom-vtfields-dark {
+    background-color: #1d2333 !important;
+    color: #fff !important;
+}

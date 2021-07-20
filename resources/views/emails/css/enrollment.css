@@ -1,0 +1,20 @@
+.information-line .information-line-text, .information-line .information-line-title {
+    font-size: .775rem;
+    font-weight: 700;
+    line-height: 1.4285714286em;
+}
+.information-line .information-line-title {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 80px;
+    color: #9aa4bf !important;
+}
+.information-line .information-line-text, .information-line .information-line-title {
+    font-size: .775rem;
+    font-weight: 700;
+    line-height: 1.4285714286em;
+}
+.information-line {
+    display: -ms-flexbox;
+    display: flex;
+}

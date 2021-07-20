@@ -1,0 +1,34 @@
+.emoji-invoker {
+    position: absolute;
+    top: 0.8rem;
+    right: 1.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+@media (max-width: 1024px) {
+    .title-field__form-row {
+        margin-top: 76px !important;
+    }
+}
+.avatar-advance-preview {
+	border: dashed 3px rgba(255,255,255, 0.25);
+}
+.margin-y-38 {
+    margin-top: 38px !important;
+    margin-bottom: 38px !important;
+}
+.margin-b-38 {
+    margin-bottom: 38px !important;
+}
+.margin-t-38 {
+    margin-top: 38px !important;
+}
+.margin-t-76 {
+    margin-top: 76px !important;
+}
+.margin-b-76 {
+    margin-top: 76px !important;
+}
